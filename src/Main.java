@@ -7,7 +7,7 @@ public class Main {
 
         int bonus;
         int outcome;
-        if (replenishment >= 1000) {
+        if (replenishment > 1000) {
             bonus = replenishment / 100 * 1;
             outcome = balance + replenishment + bonus;
             System.out.println("Итоговая сумма на счету: " + outcome);
